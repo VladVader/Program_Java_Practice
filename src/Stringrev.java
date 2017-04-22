@@ -30,7 +30,7 @@ public class Stringrev {
 
         char[] revers = new char[chars.length];
         int j = 0;
-        for (int i = chars.length - 1; i >= 0; i++) {
+        for (int i = chars.length - 1; i >= 0; i--) {
             revers[j] = chars[i];
             j++;
         }
